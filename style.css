@@ -2,8 +2,11 @@ body {
   background-color: greenyellow;
 }
 button {
-  background-color: yellow;
+  background-color: greenyellow;
 }
 button:hover {
+  background-color: yellow;
+}
+a:hover {
   background-color: yellow;
 }
