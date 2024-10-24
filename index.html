@@ -16,14 +16,14 @@ Swal.fire({
   icon: "warning",
   title: "รอคิว",
   html: "<b></b>",
-  timer: 5000,
+  timer: 50000,
   timerProgressBar: true,
   didOpen: () => {
     Swal.showLoading();
     const timer = Swal.getPopup().querySelector("b");
     timerInterval = setInterval(() => {
       timer.textContent = `${Swal.getTimerLeft()}`;
-    }, 1);
+    }, 100);
   },
   willClose: () => {
     clearInterval(timerInterval);
