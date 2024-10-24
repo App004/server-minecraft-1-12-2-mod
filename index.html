@@ -9,8 +9,10 @@
   </head>
   <body>
     <h1>ยินดีต้อนรับสู่เว็บ</h1>
-    <a class="btn btn-primary" href="./menu.html" role="button" onclick="AS()">menu</a>
-    <button onclick="test()">test</button>
+    <a class="btn btn-primary" href="./menu.html" role="button">menu</a>
+    <br>
+    <button onclick="ERR()">settings</button>
+    <button onclick="ERR()">Minecraft free $0</button>
     <script>
    function AS(){
       Swal.fire({
@@ -20,8 +22,16 @@
    }
     </script>
     <script>
-      function test(){
+      function notcode(){
         alert("𝙴𝚛𝙾𝚛𝚁 𝚊𝙽𝚍 𝚌𝙾𝚍𝙴 𝙼𝚎")
+      }
+    </script>
+    <script>
+      function ERR(){
+        Swal.fire({
+         title: "ไม่มีฟรีเลยนะเว็บนี้ไม่ขายฟรี 🤣",
+         icon: "error",
+        });
       }
     </script>
   </body>
