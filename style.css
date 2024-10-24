@@ -10,3 +10,7 @@ button:hover {
 a:hover {
   background: yellow;
 }
+a {
+  padding: 5px 10px;
+  background: white;
+}
