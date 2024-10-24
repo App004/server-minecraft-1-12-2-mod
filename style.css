@@ -1,6 +1,9 @@
 body {
   background-color: greenyellow;
 }
-.button {
-  background-color yellow;
+button {
+  background-color: yellow;
+}
+button:hover {
+  background-color: yellow;
 }
