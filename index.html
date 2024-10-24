@@ -11,26 +11,27 @@
     <h1>ยินดีต้อนรับสู่เว็บ</h1>
     <a class="btn btn-primary" href="./menu.html" role="button">menu</a>
     <script>
-      Swal.fire({
-        title: "ยินดีต้อนรับ",
-        icon: "success"
-      });
-      const Toast = Swal.mixin({
-  toast: true,
-  position: "top-end",
-  showConfirmButton: false,
+   let timerInterval;
+Swal.fire({
+  title: "home",
+  html: "<b></b>",
   timer: 10000,
   timerProgressBar: true,
-  didOpen: (toast) => {
-    toast.onmouseenter = Swal.stopTimer;
-    toast.onmouseleave = Swal.resumeTimer;
+  didOpen: () => {
+    Swal.showLoading();
+    const timer = Swal.getPopup().querySelector("b");
+    timerInterval = setInterval(() => {
+      timer.textContent = `${Swal.getTimerLeft()}`;
+    }, 100);
+  },
+  willClose: () => {
+    clearInterval(timerInterval);
   }
-});
-Toast.fire({
-  icon: "info",
-  title: "home"
-  text: "<b></b>"
-   const timer = Swal.getPopup().querySelector("b");
+}).then((result) => {
+  /* Read more about handling dismissals below */
+  if (result.dismiss === Swal.DismissReason.timer) {
+    console.log("I was closed by the timer");
+  }
 });
     </script>
   </body>
