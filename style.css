@@ -9,7 +9,7 @@ button {
 button:hover {
   background-color: yellow;
   padding: 5px 10px;
-
+  transition: all 0.5s ease;
 }
 a:hover {
   background: yellow;
