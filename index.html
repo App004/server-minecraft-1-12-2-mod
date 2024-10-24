@@ -13,7 +13,8 @@
     <script>
    let timerInterval;
 Swal.fire({
-  title: "welcome your",
+  icon: "warning"
+  title: "รอคิว",
   html: "<b></b>",
   timer: 1000000,
   timerProgressBar: true,
@@ -22,7 +23,7 @@ Swal.fire({
     const timer = Swal.getPopup().querySelector("b");
     timerInterval = setInterval(() => {
       timer.textContent = `${Swal.getTimerLeft()}`;
-    }, 100);
+    }, 395);
   },
   willClose: () => {
     clearInterval(timerInterval);
