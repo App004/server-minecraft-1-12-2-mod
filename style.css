@@ -5,20 +5,20 @@ body {
 button {
   background-color: greenyellow;
   transition: all 0.5s ease;
-  padding: 0px 2.5cm;
+  padding: 1px 2.5cm;
 }
 button:hover {
   background-color: yellow;
-  padding: 0px 3cm;
+  padding: 1px 3cm;
   transition: all 0.5s ease;
 }
 a:hover {
   background: yellow;
-  padding: 0px 3cm;
+  padding: 1px 3cm;
   transition: all 0.5s ease;
 }
 a {
-  padding: 0px 2cm;
+  padding: 1px 2cm;
   background: white;
   transition: all 0.5s ease;
   
