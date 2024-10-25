@@ -14,18 +14,7 @@
 <br>
 <button onclick="copy()">Copy text</button>
 
-<script>
-function copy() {
-  var copyText = document.getElementById("A");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999)
-  document.execCommand("copy");
-  Swal.fire({
-         title: " copy success ",
-         icon: "success"
-  });
-}
-</script>
+<script src="/script/index.js"></script>
 </body>
 <head>
  <style>
