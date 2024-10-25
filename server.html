@@ -6,12 +6,13 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="index.js">
 
-<input type="text" value="1234" id="myInput">
+<input type="button" value="1234" id="A">
+<br>
 <button onclick="copy()">Copy text</button>
 
 <script>
 function copy() {
-  var copyText = document.getElementById("myInput");
+  var copyText = document.getElementById("A");
   copyText.select();
   copyText.setSelectionRange(0, 99999)
   document.execCommand("copy");
