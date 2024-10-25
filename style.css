@@ -14,11 +14,11 @@ button:hover {
 }
 a:hover {
   background: yellow;
-  padding: 5px 7px;
+  padding: 0px 3cm;
   transition: all 0.5s ease;
 }
 a {
-  padding: 5px 10px;
+  padding: 0px 2cm;
   background: white;
   transition: all 0.5s ease;
   
