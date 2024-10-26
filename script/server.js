@@ -6,6 +6,5 @@ function copy() {
   Swal.fire({
          title: " copy success ",
          icon: "success"
-         input: "text"
   });
 }
