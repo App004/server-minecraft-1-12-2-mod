@@ -67,7 +67,7 @@ a {
   font-style: normal;
 }
 .box {
-  width: auto;
+  width: 400px;
   height: auto;
   background-color: lightblue;
   border: 2px solid blue;
