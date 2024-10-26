@@ -82,13 +82,10 @@ a {
   font-size: 6.2em;
   font-weight: 500;
 }
-.box a {
-  width: 20px;
-  height: 10px;
-  
-}
+
 #new1 {
- padding:50px 0px; padding:0px;
+ padding:50px 0px; 
+ padding:0px;
  text-align: center;
  align: center;
 }
