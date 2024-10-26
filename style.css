@@ -83,8 +83,8 @@ a {
   font-weight: 500;
 }
 .box a {
-  font-size: 6.2em;
-  font-weight: 500;
+  width: 400px;
+  height: 100px;
 }
 #new1 {
  padding:50px 0px; padding:0px;
