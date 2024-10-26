@@ -67,10 +67,10 @@ a {
   font-style: normal;
 }
 .box {
-  width: 400px;
+  width: auto;
   height: auto;
-  background-color: lightblue;
-  border: 2px solid blue;
+  background-color: #FF0FF;
+  border: 2px solid #FFFFF;
   padding: 10px;
   margin: 10px;
 }
