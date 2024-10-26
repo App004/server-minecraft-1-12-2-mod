@@ -1,0 +1,93 @@
+body {
+  background-color: greenyellow;
+  transition: all 0.5s ease;
+}
+button {
+  background-color: greenyellow;
+  transition: all 0.5s ease;
+  padding: 1px 1cm;
+}
+button:hover {
+  background-color: yellow;
+  padding: 1px 2cm;
+  transition: all 0.5s ease;
+}
+a:hover {
+  background: yellow;
+  padding: 1px 2cm;
+  transition: all 0.5s ease;
+}
+a {
+  padding: 1px 1cm;
+  background: white;
+  transition: all 0.5s ease;
+
+}
+
+
+.ibm-plex-sans-thai-thin {
+  font-family: "IBM Plex Sans Thai", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thai-extralight {
+  font-family: "IBM Plex Sans Thai", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thai-light {
+  font-family: "IBM Plex Sans Thai", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thai-regular {
+  font-family: "IBM Plex Sans Thai", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thai-medium {
+  font-family: "IBM Plex Sans Thai", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thai-semibold {
+  font-family: "IBM Plex Sans Thai", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thai-bold {
+  font-family: "IBM Plex Sans Thai", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.box {
+  width: auto;
+  height: auto;
+  background-color: grey;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  padding:50px 0px; 
+  padding:0px;
+  text-align: center;
+  align: center;
+}
+.box h1 {
+  font-size: 6.2em;
+  font-weight: 500;
+}
+.box a {
+  padding: 1px 3cm;
+}
+#new1 {
+ padding:50px 0px; 
+ padding:0px;
+ text-align: center;
+ align: center;
+}
