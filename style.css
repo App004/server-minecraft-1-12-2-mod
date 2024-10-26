@@ -69,10 +69,14 @@ a {
 .box {
   width: auto;
   height: auto;
-  background-color: #FF0FF;
-  border: 2px solid #FFFFF;
+  background-color: grey;
+  border: 2px solid block;
   padding: 10px;
   margin: 10px;
+  padding:50px 0px; 
+  padding:0px;
+  text-align: center;
+  align: center;
 }
 .box h1 {
   font-size: 6.2em;
