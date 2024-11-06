@@ -91,3 +91,9 @@ a {
  text-align: center;
  align: center;
 }
+p:hover {
+ border: 2px solid block;
+}
+h1:hover {
+ border: 2px solid block;
+}
