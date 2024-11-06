@@ -92,11 +92,11 @@ a {
  align: center;
 }
 p:hover {
- border: 2px solid block;
+ border: 2px solid black;
 }
 h1:hover {
- border: 2px solid block;
+ border: 2px solid black;
 }
 option {
-  border: 2px solid blue;
+ border: 2px solid black;
 }
